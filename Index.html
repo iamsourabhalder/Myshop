@@ -1,1 +1,297 @@
-hiw
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Filter and Cart</title>
+	 <link rel="ficon" href="123.jpg" type="img/.jpg"/>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        
+        img{
+            height: 500px;
+            width:100%;
+        }
+        
+        H1,dev,label,mark,p,H2,ul{font-size: 100%; text-align: center; width: 100%;}
+    
+        button {
+            width: 100%;
+            position: relative;
+            border: none;
+            border-radius: 5px;
+            background-color: #333;
+            padding: 7px 25px;
+            cursor: pointer;
+            color: white;
+        }
+        button:hover {
+            background-color: orangered; font-size: 50px;
+        }
+        ::-webkit-scrollbar {
+            display: none;
+        }
+         
+button {
+    font-size: 20px;
+    width="20px";
+    border-radius: 30px;
+    padding: 32px 16px;
+}
+        .product { margin: 10px; padding: 10px; border: 1px solid #ccc; display: inline-block; }
+        .cart { margin-top: 20px; }
+        
+        
+        
+        input {
+    width: 100%;
+    height: 100px;
+    font-weight: 20px;
+    border-bottom: 4px solid red;
+    padding: 25px 20px;
+    font-size: 20px;
+    margin: 8px 0;
+    border: 5px solid green;
+    box-sizing: border-box;
+}
+
+    textarea[type=text] {
+    width: 100%;
+    border: 4px solid blue;
+    padding: 40px 20px;
+    font-size: 25px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+        
+        #popup{
+            display: none;
+            border: 4px solid;
+            background :green;
+            width: 100%;
+            height: 650px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+<center>
+    <H1> HPCL </H1>
+
+
+<fieldset>
+    
+    <details open><summary>Manu</summary>
+  <details><summary>Product List</summary>
+  <a href="#">Elitroinck & Mobile</a><br />
+  <a href="#">all type Dress</a><br />
+  <a href="#">Glossary</a><br />
+  <a href="#">Cosmatic</a><br />
+  </ditails> <details><summary>new product</summary>
+<a href="#">Low price product</a><br />
+<a href="#">new item</a><br />
+<a href="#">larner and bokk</a><br />
+<a href="#">sell Website</a><br />
+  <a href="#">E-certified</a><br />
+  <a href ="https://sourabhalder.eu.org">outher coming soon</a><br />
+  </details>
+    <details><summary>login</summary>
+<a href="#">Membership Document</a><br />
+<a href="https://sourabhalder.business.site">Admin Contact</a><br />
+<a href="#">privacey & policey</a>
+</details> </details> </fieldset>
+
+
+
+
+
+<h1>online Shop</h1>
+
+<mark><marquee direction="right" scrollamount="20"> hiw </marquee></mark>
+
+
+
+<h2 class="container"> sell price product comming few minit letter...
+   <h1 id="count">1 hourse letter </h1> </div> </h2>
+
+<b> sell item
+    <!--Tab to edit-->
+</b> <br></br>
+<br></br><i>
+made in india product</i>
+    
+	
+	
+	
+	<fieldset> <h2>hpcl Gallery</h2>
+<div class="mys fade">
+    <div class="numbertext">loot ofer</div>
+  <div class="numbertext">99 help</div>
+  <img src="123.jpg"> </div>
+<div class="mys fade">
+<div class="numbertext"> helpfor you</div>
+  <img src="product1.jpg"></div>
+<div class="mys fade">
+  <div class="numbertext"> help every time</div>
+  <img src="product2.jpg"> </div> <br>
+<div style="text-align:center">
+  <span class="dot"/> <span class="dot"/>
+  <span class="dot" /> </div>
+  
+ </fieldset>
+	
+	
+	
+	
+	
+</i></center>
+
+    <h1>Product List</h1>
+    <input type="text" id="filter" placeholder="Filter products...">
+    <div id="product-list">
+        
+        
+        
+        <div class="product" data-name="Product 1" data-price="10">
+            <h2>Product 1</h2>
+            <img src="product1.jpg" alt="Product 1" width="100">
+            <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+        </div>
+        
+        <div class="product" data-name="Product 2" data-price="20">
+            <h2>Product 2</h2>
+            <img src="product2.jpg" alt="Product 2" width="100">
+            <button onclick="addToCart('Product 2', 20)">Add to Cart</button>
+        </div>
+        
+        <div class="product" data-name="Product 3" data-price="30">
+            <h2>Product 3</h2>
+            <img src="product3.jpg" alt="Product 3" width="300">
+            <button onclick="addToCart('Product 3', 30)">Add to Cart</button>
+        </div>
+        
+        <div class="product" data-name="Product 4" data-price="40">
+            <h2>Product 4</h2>
+            <img src="product4.jpg" alt="Product 4" width="400">
+            <button onclick="addToCart('Product 4', 40)">Add to Cart</button>
+        </div>
+        
+        <div class="product" data-name="Product 5" data-price="50">
+    <h2>Product 5</h2>
+    <img src="product5.jpg" alt="Product 5" width="500">
+    <button onclick="addToCart('Product 5', 50)">Add to Cart</button>
+</div>
+
+<div class="product" data-name="Product 6" data-price="90">
+    <h2>Product 6</h2>
+    <img src="product6.jpg" alt="Product 6" width="900">
+    <button onclick="addToCart('Product 6', 90)">Add to Cart</button>
+</div>
+        
+        
+        
+        <div class="product" data-name="Product 3" data-price="30">
+    <h2>Product 3</h2>
+    <img src="product3.jpg" alt="Product 3" width="300">
+    <button onclick="addToCart('Product 3', 30)">Add to Cart</button>
+</div>
+
+<div class="product" data-name="Product 4" data-price="40">
+    <h2>Product 4</h2>
+    <img src="product4.jpg" alt="Product 4" width="400">
+    <button onclick="addToCart('Product 4', 40)">Add to Cart</button>
+</div>
+        
+        <div class="product" data-name="Product 3" data-price="30">
+    <h2>Product 3</h2>
+    <img src="product3.jpg" alt="Product 3" width="300">
+    <button onclick="addToCart('Product 3', 30)">Add to Cart</button>
+</div>
+
+
+
+<div class="product" data-name="Product 4" data-price="40">
+    <h2>Product 4</h2>
+    <img src="product4.jpg" alt="Product 4" width="400">
+    <button onclick="addToCart('Product 4', 40)">Add to Cart</button>
+</div>
+        
+        <div class="product" data-name="Product 3" data-price="30">
+    <h2>Product 3</h2>
+    <img src="product3.jpg" alt="Product 3" width="300">
+    <button onclick="addToCart('Product 3', 30)">Add to Cart</button>
+</div>
+
+<div class="product" data-name="gilabi 4" data-price="40">
+    <h2>gilabi 4</h2>
+    <img src="product2.jpg" alt="Product 4" width="400">
+    <p>great product</p>
+    <button onclick="addToCart('Product 4', 40)">Add to Cart 40rs</button>
+</div>
+        
+        
+        
+        <!-- Add more products as needed -->
+        
+        
+        
+        
+        
+        
+    </div>
+    
+    <label title="hiw span">Notice
+</label>
+    <marquee direction="up"scrollamount="1"
+onmouseover="this.stop();" onmouseout="this.start();" bgcolor="black" width="100%;" height="200px;" > <a href="#">loot offer&emsp; &emsp; new off 90%</a>
+    <!--Tab to edit-->
+</marquee>
+    
+    
+<hr></hr><br></br>
+
+
+ <button onclick="document.getElementById('popup').style.display='block' ">Click Add To Cart List🛒🔻</button>
+<b id="popup">
+
+
+    <div class="cart">
+        <h1>Cart Product</h1>
+        <ul id="cart-items"></ul>
+        <hr></hr>
+        <p>Total Price: $<span id="total-price">0</span></p>
+        
+        <p>customer name</p>
+        <input type="text" id="customer-name" placeholder="Your Name to receive product" required>
+        <p>Mobile Number</p>
+        <input type="tel" id="customer-number" placeholder="Your Calling Number" required>
+        <p>Customer Full-Address</p>
+        <textarea type="text" id="c-address" placeholder="Customer full address Resived this product" required> </textarea>
+        
+       
+        
+        <button onclick="sendOrder()">Send Order via WhatsApp</button>
+        <button onclick="sendOrderEmail()">Send Order via Email</button>
+    </div>
+
+  <button onclick="document.getElementById('popup').style.display='none' ">close
+  </button> </b>
+  <a name="sh"></a>
+  <hr></hr><br></br>
+
+ <a href="#sh" style="position: fixed; width:90px; height: 60px; Right:10px; bottom: 40px; text-overflow: teal; text-decoration: none;"><b><H1>🛒🔻</H1> </b></a>
+
+
+    <script src="appws.js">
+    </script>
+    <br> <hr> </br> <br> </hr> </br>
+<address>your website development by... sourabhalder.eu.org
+    <!--Tab to edit--> shopping now,Thank You Visiting again
+</address>
+
+ 
+
+</body>
+</html>
